@@ -3,21 +3,13 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 
 
 local Window = Fluent:CreateWindow({
-    Title = "mini citycriador" .. Fluent.Version,
+    Title = "minicitycriador" .. Fluent.Version,
     TabWidth = 160, Size = UDim2.fromOffset(580, 460), Theme = "Dark"
 })
 
 local Tabs = {
     Main = Window:AddTab({ Title = "jogador" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
-}
-
-local Tabs = {
-    Main = Window:AddTab({ Title = "???" }),
-    Settings = Window:AddTab({ Title = "bro", Icon = "Aimbot" })
-}
-
-
+    
 
 
 Tabs.Main:AddParagraph({ Title = "jogador", Content = "esp-fly"})
